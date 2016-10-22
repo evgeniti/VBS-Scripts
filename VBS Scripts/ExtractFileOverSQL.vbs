@@ -1,3 +1,5 @@
+' file download over ADO Connection. bulkadmin role required
+
 Sub ExtractFileOverSQL(FilePath,FileToSave,ServerName,UserName,Password) 
 	Const adSaveCreateOverWrite=2
 	Const adTypeBinary = 1
